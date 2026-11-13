@@ -61,6 +61,11 @@ details p{color:var(--muted);max-width:660px;margin:0 0 24px}
 .rows small{color:var(--muted);font-size:14px}
 footer{background:var(--band);color:var(--muted);font-size:14px;line-height:1.5;padding:88px 0 36px}
 .fgrid{display:grid;grid-template-columns:1fr 1fr;gap:48px 76.8px}
+footer .logo{font-size:24px}
+.also{margin:56px 0 0}
+.also .rows{margin:0}
+.also .rows li{padding:20px 0}
+.also .rows a{font-size:1.3rem}
 .owner{margin:18px 0 0;font-size:15.5px;color:var(--ink)}
 .owner strong{font-weight:600}
 .facts{display:grid;grid-template-columns:repeat(2,minmax(0,max-content));gap:18px 56px;margin:26px 0 0}
