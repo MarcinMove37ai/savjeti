@@ -42,6 +42,34 @@ mark{background:linear-gradient(transparent 60%,rgba(242,169,59,.55) 60%,rgba(24
 .cta .t{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,2.6vw,1.9rem);line-height:1.12;letter-spacing:-.015em;color:var(--mountain);margin:0 0 12px}
 .cta p{margin:0 0 22px;color:var(--ink)}
 .cta .more{font-weight:600;color:var(--ink);text-decoration-color:var(--ink)}
+.ad{display:grid;gap:24px;align-items:center;border-radius:20px;padding:30px 32px;margin:44px 0 8px;text-decoration:none}
+.ad .k{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;margin:0 0 10px}
+.ad .t{font-family:var(--display);font-weight:400;font-size:clamp(1.45rem,2.5vw,1.85rem);line-height:1.14;letter-spacing:-.015em;margin:0 0 10px}
+.ad p{margin:0 0 18px}
+.ad .chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0 0 20px;padding:0}
+.ad .chips li{font-size:13.5px;font-weight:600;border-radius:999px;padding:6px 12px;margin:0}
+.ad small{display:block;font-size:13.5px;margin-top:12px}
+.ad-al{background:var(--mountain);color:#fff;grid-template-columns:1fr}
+.ad-al .k{color:#8fd7e0}
+.ad-al .t{color:#fff}
+.ad-al p{color:#dfe7f1}
+.ad-al .chips li{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.22)}
+.ad-al small{color:#c3cfde}
+.ad-al .mark svg{width:44px;height:auto;display:block;margin:0 0 14px}
+.ad-al .mark path:first-child{fill:#fff}
+.ad-eb{background:linear-gradient(160deg,#eef5f6 0%,#fff 46%,#fdf2df 100%);border:1px solid var(--line);grid-template-columns:148px 1fr}
+.ad-eb img{width:148px;height:auto;border-radius:8px;box-shadow:0 14px 30px rgba(11,42,79,.22);display:block}
+.ad-eb .k{color:var(--water-text)}
+.ad-eb .t{color:var(--mountain)}
+.ad-eb p{color:var(--ink)}
+.ad-eb small a{font-weight:600;color:var(--ink);text-decoration-color:var(--ink)}
+@media (max-width:620px){.ad{padding:26px 22px}.ad-eb{grid-template-columns:1fr}.ad-eb img{width:128px}}
+.group{margin:0 0 56px}
+.group h2{margin-top:0}
+.towns{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;list-style:none;margin:0;padding:0}
+.towns a{display:block;border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-weight:600;color:var(--ink);text-decoration:none}
+.towns a:hover{border-color:var(--water)}
+.towns small{display:block;font-weight:400;color:var(--muted);margin-top:4px}
 .note{color:var(--muted);font-size:14px;line-height:1.55;margin:40px 0 0}
 .band{background:var(--band);padding:84px 0 12px}
 .band h2{font-size:clamp(2.1rem,4.4vw,3.2rem);line-height:1.05;margin:0 0 44px}
